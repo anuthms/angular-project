@@ -1,3 +1,10 @@
 angular features:
 component:buildimg block
 root module:module
+clik on login btn:check user and password and login else not there
+data bindinhg:html and class schronizing
+1>one way bindinhg(data flow 1.component-->view
+string intergolation: {{classname /templatename}}
+2.property binding :view-->class: binding to a property [value]="PLACEHOLDER"
+
+2>two way binding(component<->view)
