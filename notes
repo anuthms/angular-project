@@ -7,4 +7,6 @@ data bindinhg:html and class schronizing
 string intergolation: {{classname /templatename}}
 2.property binding :view-->class: binding to a property [value]="PLACEHOLDER"
 
-2>two way binding(component<->view)
+2>two way binding(componentclass<-view)
+1. event binding:dollor event===>(event)="event($event)" define in login class
+2.event bindinhg: (event)==>source function
