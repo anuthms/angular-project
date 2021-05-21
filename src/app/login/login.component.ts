@@ -57,5 +57,9 @@ login(){
         }
         
 }
+register()
+{
 
+this.router.navigateByUrl("register");
+}
 }

@@ -1,0 +1,31 @@
+angular features:
+1. component:buildimg block
+2. root module:module
+
+clik on login btn:check user and password and login else not there
+3. data bindinhg:html and class schronizing
+
+1>one way bindinhg(data flow
+
+ 1.component-->view
+
+1.string intergolation: {{classname /templatename}}
+
+2.property binding :view-->class: 
+1.binding to a property [value]="PLACEHOLDER"
+2. event binding:dollor event===>(event)="event($event)" define in login class
+3. using template referance #variablename
+
+
+2>two way binding(componentclass<-view)
+
+ng model part of formsmodule==>import app module  [(ngModel)]=name
+
+4. dependency injection:accessing from diff class 
+
+5.router:
+(redirect)  router
+constructor(private router:router)
+
+login component  success  this.router.navigatebyurl("name");
+ 
