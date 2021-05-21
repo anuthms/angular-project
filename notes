@@ -3,10 +3,24 @@ component:buildimg block
 root module:module
 clik on login btn:check user and password and login else not there
 data bindinhg:html and class schronizing
-1>one way bindinhg(data flow 1.component-->view
-string intergolation: {{classname /templatename}}
-2.property binding :view-->class: binding to a property [value]="PLACEHOLDER"
+1>one way bindinhg(data flow
+
+ 1.component-->view
+
+1.string intergolation: {{classname /templatename}}
+2.property binding :view-->class: 
+1.binding to a property [value]="PLACEHOLDER"
+2. event binding:dollor event===>(event)="event($event)" define in login class
+3. using template referance #variablename
+
 
 2>two way binding(componentclass<-view)
-1. event binding:dollor event===>(event)="event($event)" define in login class
-2.event bindinhg: (event)==>source function
+
+ng model part of formsmodule==>import app module  [(ngModel)]=name
+
+dependency injection:accessing from diff class 
+(redirect)  router
+constructor(private router:router)
+
+login component  success  this.router.navigatebyurl("name");
+

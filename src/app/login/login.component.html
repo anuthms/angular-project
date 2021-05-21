@@ -5,9 +5,9 @@
       <h1 class="h3 mb-6 fw-normal" id="title">welcome to yes Bank </h1><h6>{{aim}}</h6>
       <p class="h5">please log in:</p>
       <label for="input" class="visually-hidden">Account no</label>
-      <input type="text" id="accno" class="form-control" [value]="account" (change)="changeACC($event)" placeholder="account number"  required autofocus>
+      <input type="text" id="accno" class="form-control" name="accno" [(ngModel)]="accno" placeholder="account number"  required autofocus>
       <label for="inputPassword" class="visually-hidden">Password</label>
-      <input type="password" (change)="changepswd($event)" id="pwd" class="form-control" placeholder="Password" required>
+      <input type="password" name="pswd"  [(ngModel)]="pswd" id="pwd" class="form-control" placeholder="Password" required>
       <div class="checkbox mb-3">
         <label>
           <input type="checkbox" value="remember-me"> Remember me
